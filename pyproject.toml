@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "modul7"
+version = "0.1.0"
+description = ""
+authors = ["RyszardKozik <149445001+RyszardKozik@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.29"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
